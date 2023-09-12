@@ -1,0 +1,32 @@
+Goal
+//Create a web portfolio to showcase myself and projects
+
+files: landing.tsx, aboutMe.tsx, projects.tsx, and contact.tsx
+
+
+For all pages:
+    set up the navbar using charkra ui and link each page to the navbar, this will be used the same way on all pages
+        also make it so whichever page you are on, the button for that page is highlighted
+
+    add an animated background to each page
+
+landing.tsx:
+    simply add text for a simple introduction of myself
+    center it on the page and adjust the font
+
+aboutMe.tsx:
+    Text to write about my background and my experience
+    center text and adjust font 
+
+projects.tsx:
+    I am choosing to showcase 6 different projects
+    I display them in a column going down with a note under each one displaying what languages are used and what year i madde the projects
+    Make them clickable, i think we are using azure to push them all and then we can link them on our portfolio to access, so just an onclick most likely to take you to the page
+    If I want the page to scroll down, ill also have to figure out how to adjust the animated background
+
+contact.tsx:
+    A google form will be used to contact me, it can be embeded into the code
+    In the form, the user can enter their name, email, and a message to me from within my portfolio that I should recieve in my email
+        (or a link if embeding doesnt work out the way I think it will)
+    Also still note my email at the bottom of the page in case someone would rather just email me
+
