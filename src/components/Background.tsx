@@ -1,10 +1,11 @@
-import React from 'react'
-import VideoBackground from '../assets/VideoBackground.mov'
+import bg from '../assets/bg.mp4'
+
+
 
 const Background = () => {
   return (
-    <div>
-      <video src={VideoBackground} autoPlay loop muted/>
+    <div className='background'>
+      <video src={bg} autoPlay loop muted className='video'/>
     </div>
   )
 }

@@ -11,7 +11,7 @@ For all pages:
     add an animated background to each page
 
 landing.tsx:
-    simply add text for a simple introduction of myself
+    Add text to introduce myself and my page
     center it on the page and adjust the font
 
 aboutMe.tsx:
