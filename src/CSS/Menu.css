@@ -1,23 +1,24 @@
 .nav-link, .navbar-brand {
-    color: azure !important;
+    color: blue !important;
     font-size: 5rem;
   }
   .nav-link:hover, .navbar-brand:hover{
-      color: #14086e !important;
+      color: #8962ff !important;
+      text-shadow: 0 0 5px rgba(137, 98, 255, 0.7);
   }
   .nav-link{
       font-size: 2rem;
       margin-top: 13px;
   }
   .nav-link:hover{
-      color: #14086e !important;
+      color: #8962ff !important;
   }
   .nav-link:active{
-      color: #14086e !important;
+      color: #8962ff !important;
   }
 
   .dot{
-      color: azure;
+      color: blue;
       margin-top: 26px;
       font-size: 2rem;
   }

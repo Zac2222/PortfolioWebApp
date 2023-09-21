@@ -1,6 +1,22 @@
 body{
   background: rgb(56, 56, 56);
 }
+.boop {
+  font-size: 60px;
+  width: 1700px;
+
+  background: linear-gradient(45deg, #9d16df, #3156e8);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: color 2s ease;
+
+}
+.boop:hover {
+  background-image: linear-gradient(45deg, #3156e8, #9d16df);
+  color: #8962ff;
+  text-shadow: 0 0 5px rgba(137, 98, 255, 0.7);
+}
 .background {
     position: fixed;
     top: 0;
