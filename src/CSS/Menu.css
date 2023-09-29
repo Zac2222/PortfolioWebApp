@@ -1,9 +1,9 @@
 .nav-link, .navbar-brand {
-    color: blue !important;
+    color: rgb(70, 70, 216) !important;
     font-size: 5rem;
   }
   .nav-link:hover, .navbar-brand:hover{
-      color: #8962ff !important;
+      color: #3156e8 !important;
       text-shadow: 0 0 5px rgba(137, 98, 255, 0.7);
   }
   .nav-link{
@@ -18,7 +18,7 @@
   }
 
   .dot{
-      color: blue;
+      color: #3156e8;
       margin-top: 26px;
       font-size: 2rem;
   }
