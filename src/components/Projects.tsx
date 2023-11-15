@@ -19,31 +19,41 @@ const Projects = () => {
           <h3 className="projectTextReverse">Unity, C#/2022</h3>
         </Col>
         <Col className="col-6 my-5">
+        <a href="https://white-wave-03cb46f1e.4.azurestaticapps.net" target="_blank" rel="noopener noreferrer">
           <Image className="imageCrop" src={trivia} fluid />
+          </a>
           <h2 className="projectText">Guilty Gear Trivia</h2>
           <h3 className="projectText">JS, HTML, CSS/2023</h3>
         </Col>
       </Row>
       <Row>
         <Col className="col-6 my-5">
+        <a href="https://victorious-mushroom-0ecae891e.4.azurestaticapps.net" target="_blank" rel="noopener noreferrer">
           <Image className="imageCrop" src={calculator} fluid />
+          </a>
           <h2 className="projectTextReverse">Simple Calculator</h2>
           <h3 className="projectTextReverse">JS, HTML, CSS/2023</h3>
         </Col>
         <Col className="col-6 my-5">
+        <a href="https://wonderful-water-02eadea1e.4.azurestaticapps.net" target="_blank" rel="noopener noreferrer">
           <Image className="imageCrop" src={toDoList} fluid />
+          </a>
           <h2 className="projectText">To Do List</h2>
           <h3 className="projectText">JS, HTML, CSS/2023</h3>
         </Col>
       </Row>
       <Row>
         <Col className="col-6 my-5">
-          <Image className="imageCrop" src={ticTacToe} fluid />
+          <a href="https://green-water-0b53cb51e.4.azurestaticapps.net" target="_blank" rel="noopener noreferrer">
+            <Image className="imageCrop" src={ticTacToe} fluid />
+          </a>
           <h2 className="projectTextReverse">Tic Tac Toe</h2>
           <h3 className="projectTextReverse">React, TypeScript/2023</h3>
         </Col>
         <Col className="col-6 my-5">
+        <a href="https://black-mushroom-09f9d3d1e.4.azurestaticapps.net" target="_blank" rel="noopener noreferrer">
           <Image className="imageCrop" src={weatherApp} fluid />
+          </a>
           <h2 className="projectText">Weather App</h2>
           <h3 className="projectText">JS, HTML, CSS/2023</h3>
         </Col>

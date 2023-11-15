@@ -13,7 +13,7 @@ function Menu() {
         <Navbar.Collapse>
           <Nav className="me-auto">
             <h2 className='dot mx-2'>•</h2>
-            <Nav.Link as={Link} to={'/AboutMe'}>About Me</Nav.Link>
+            <Nav.Link as={Link} to={'/AboutMe'}>More about Me</Nav.Link>
             <h2 className='dot mx-2'>•</h2>
             <Nav.Link as={Link} to={'/Projects'}>Projects</Nav.Link>
             <h2 className='dot mx-2'>•</h2>
