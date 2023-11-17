@@ -34,9 +34,14 @@
 }
 
 .emailText {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   padding-left: 250px;
+}
+@media(max-width: 1350px){
+  .emailText{
+    padding-left: 0px;
+    text-align: start;
+  }
 }
 
 .modalStyle .modal-content{
