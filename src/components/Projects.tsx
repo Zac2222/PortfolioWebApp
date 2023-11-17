@@ -14,7 +14,9 @@ const Projects = () => {
     <Container fluid>
       <Row>
         <Col className="col-6 my-5">
+           <a href="https://play.unity.com/mg/other/this-j2cb" target="_blank" rel="noopener noreferrer">
           <Image className="imageCrop" src={dealOrNoDeal} fluid />
+            </a>
           <h2 className="projectTextReverse">Deal or no deal</h2>
           <h3 className="projectTextReverse">Unity, C#/2022</h3>
         </Col>
