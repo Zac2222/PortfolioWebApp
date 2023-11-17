@@ -1,12 +1,12 @@
 import React from "react";
 import { Col, Container, Row, Image } from "react-bootstrap";
 import "../CSS/Projects.css";
-import dealOrNoDeal from "../Images/dealOrNoDeal.png";
-import trivia from "../Images/trivia.png";
-import calculator from "../Images/calculator.png";
-import toDoList from "../Images/toDoList.png";
-import ticTacToe from "../Images/ticTacToe.png";
-import weatherApp from "../Images/weatherApp.png";
+import dealOrNoDeal from "../Images/DealOrNoDeal.png";
+import trivia from "../Images/Trivia.png";
+import calculator from "../Images/Calculator.png";
+import toDoList from "../Images/ToDoList.png";
+import ticTacToe from "../Images/TicTacToe.png";
+import weatherApp from "../Images/WeatherApp.png";
 
 const Projects = () => {
   //not sure yet how we are integrating our projects, so they are just text for the time being
