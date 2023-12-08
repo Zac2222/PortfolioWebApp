@@ -130,9 +130,8 @@ const Contact = () => {
       </Form>
 
       <div>
-      <h2 className="boop emailText ">Other direct contact methods:</h2>
-      <h2 className="boop emailText ">Phone: (209)-269-0588</h2>
-      <h2 className="boop emailText ">Email: zacrice2222@gmail.com</h2>
+
+      <h2 className="boop emailText ">Or email me at zacrice2222@gmail.com</h2>
 
       </div>
 
