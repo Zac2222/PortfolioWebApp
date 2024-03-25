@@ -18,7 +18,7 @@ const AboutMe = () => {
 
   return (
     <div className='d-flex justify-content-center align-items-center textContainer'>
-      <h2 className='boop'>I am a passionate software developer currently attending Code Stack Academy. I have been passionate about coding since middle school and hope to one day be apart of a team that makes something really special!</h2>
+      <h2 className='boop'>I am a passionate software developer who recently graduated from Code Stack Academy, an intensive 18-month program where I improved my skills in both front-end and back-end development. I was also given the opportunity to attend an internship, providing me with hands-on experience in working on large-scale websites used by millions.</h2>
       <div className='aboutIcons d-flex flex-column align-items-center'>
         <Button className='buttonTheme mt-5'  onClick={handleButtonClick}>Click here to see what I can do!</Button>
         {showLanguages && (
