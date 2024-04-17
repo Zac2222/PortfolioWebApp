@@ -4,6 +4,10 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import '../CSS/Menu.css';
 import {Link} from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
+
 
 function Menu() {
   return (
@@ -18,6 +22,11 @@ function Menu() {
             <Nav.Link as={Link} to={'/Projects'}>Projects</Nav.Link>
             <h2 className='dot mx-2'>•</h2>
             <Nav.Link as={Link} to={'/Contact'}>Contact Me</Nav.Link>
+          </Nav>
+          <Nav className='ml-auto'>
+            <Nav.Link className='mx-3' href={'/resume.pdf'} target="_blank"><FontAwesomeIcon icon={faFilePdf} size="2x"/></Nav.Link>
+            <Nav.Link className='mx-3' as={Link} to={'https://www.linkedin.com/in/zac-rice-20575a2a3/'} target="_blank"><FontAwesomeIcon icon={faLinkedin} size="2x" /></Nav.Link>
+            <Nav.Link className='mx-3' as={Link} to={'https://github.com/Zac2222'} target="_blank"><FontAwesomeIcon icon={faGithub} size="2x"/></Nav.Link>
           </Nav>
         </Navbar.Collapse>
     </Navbar>
